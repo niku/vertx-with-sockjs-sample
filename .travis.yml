@@ -1,1 +1,8 @@
 language: java
+deploy:
+  provider: heroku
+  api_key:
+    secure: nYQpdTZplvOVpa57mqDmSmZfDonBRNAD8TQWy3g4VuMrV3+CCk76RPhDkcIuUm+DfFIlOsf+K27o8I98rADsgGLk71LhK4OI4eXQ43qkmdrbbTsyE7R/Zhp2GKtMXV6TzjEBX7MBWv7VQwDXLHl2zprMlCeLI+qV4pc3MJM71gQ=
+  app: vertx-with-sockjs-sample
+  on:
+    repo: niku/vertx-with-sockjs-sample
