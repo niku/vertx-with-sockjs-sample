@@ -241,3 +241,5 @@ plugins.withType(IdeaPlugin) {
     }
   }
 }
+
+task stage(dependsOn: ['clean', 'copyMod'])
